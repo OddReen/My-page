@@ -14,24 +14,34 @@ h1{
     bottom: 0%;
 }
 #Text{
-    
     font-family: "Monaco", "Courier New", monospace;
     margin: 5%;
     color: bisque;
     column-count: 2;
 }
 #Images{
-  column-count: 3;
-  margin-left: 30%;
+  margin-left: 40%;
 }
 #Photo{
-    margin-left: 25%;
+    margin: 25%;
 }
 #Instagram{
     font-size: large;
     color: bisque;
     font-family: "Monaco", "Courier New", monospace;
-    top: 50%;
     margin: 5%;
+    top: 50%;
     position: sticky;
 }
+a:link {
+    color: hsl(240, 57%, 91%);
+  }
+  a:visited {
+    color: hsl(240, 57%, 91%);
+  }
+  a:hover {
+    color: hsl(240, 24%, 69%);
+  }
+  a:active {
+    color: hsl(240, 17%, 45%);
+  }
